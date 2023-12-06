@@ -1,0 +1,44 @@
+.container-parcerias{
+    background-color: #E5D9B6;
+    display: flex;
+    align-items: self-start;
+    flex-direction: row;
+}
+.seedling{
+    padding: 3rem 1rem 0 0;
+}
+.parcerias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5rem;
+    padding: 2rem 0; 
+}
+.parcerias h1{
+    font-size: 40px;
+}
+.handshake{
+    width: 440px;
+    height: 300px;
+}
+.parceiros{
+    display: flex;
+    gap: 4rem;
+}
+.parceiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.tornese-parceiro{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 300px;
+    border-bottom: 1px solid #000;
+    color: #000;
+}

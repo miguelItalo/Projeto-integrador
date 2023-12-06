@@ -1,0 +1,101 @@
+<a href="/"> <i class="bi bi-reply-fill"></i></a>
+<section >
+        <form class="entrar" action="/registrEmpresa" method="post">
+       
+            <article class="cadastre">
+                 <header>
+            <h1>Cadastre sua Empresa!</h1>
+            <img src="/assets/svg/🦆 icon _Agriculture_.svg" width="60" height="70" alt="">
+        </header>
+                <div class="form-control">
+                    <label for="nome">Nome Fantasia</label>
+                    <input type="text" name="name" placeholder="Digite o nome de sua empresa" />
+                </div>
+                <div class="form-control">
+                    <label for="password">Razão Social</label>
+                    <input type="text" name="razaoSocial" placeholder="Digite sua Razão Social" />
+                </div>
+                <div class="form-control">
+                    <label for="cnpj">CNPJ</label>
+                    <input type="text" name="cnpj" placeholder="Digite o CNPJ" />
+                </div>
+                <div class="form-control">
+                    <label for="inscricaoEstadual">Inscrição Estadual</label>
+                    <input type="text" name="inscricaoEstadual" placeholder="Digite a Inscrição Estadual" />
+                </div>
+
+                <div class="control">
+                    <p>Todas as empresas estão sujeitas a uma taxa de cobrança a cada E-Lixo recebido/comprados</p>
+                    <div class="parceria">
+                        <label for="parceiro">Quero fazer uma Parceria</label>
+                        <input name="parceria" type="checkbox" id="mostrarTextArea">
+
+                        <div id="textAreaContainer">
+                            <textarea id="myTextarea" placeholder="Descreva sua proposta de parceria." rows="4"
+                                cols="50"></textarea>
+                        </div>
+                    </div>
+            </article>
+
+<article class="logar empresaCad">
+  <div class="container">
+    <div class="form-upload">
+
+                <label class="input-personalizado">
+                    <span class="botao-selecionar">Selecione a imagem da empresa</span>
+                    <img class="imagem" />
+                    <input type="file" class="input-file" accept="image/*">
+                </label>
+            </div>
+                <div class="form-container">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-container">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" placeholder="Digite sua senha">
+                </div>
+                <div class="form-container">
+                    <label for="repetsenha">Repetir Senha</label>
+                    <input type="password" name="repetsenha" placeholder="Repita sua senha">
+                </div>
+                <div class="form-container">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="telefone" placeholder="Digite o número da empresa">
+                </div>
+
+              <input class="empresaCadastro" type="submit" value="Cadastrar" />
+            </div>
+
+</article>
+        </form>
+
+
+</section>
+
+<script>
+    const $ = document.querySelector.bind(document);
+
+    const previewImg = $('.imagem');
+    const fileChooser = $('.input-file');
+
+    fileChooser.onchange = e => {
+        const fileToUpload = e.target.files.item(0);
+        const reader = new FileReader();
+
+        reader.onload = e => {
+            previewImg.src = e.target.result;
+            previewImg.style.width = '80px';
+            previewImg.style.height = '80px';
+        };
+
+        reader.readAsDataURL(fileToUpload);
+    };
+
+    //---------------------------------------------------------------
+    var checkbox = document.getElementById('mostrarTextArea');
+    var textAreaContainer = document.getElementById('textAreaContainer');
+    checkbox.addEventListener('change', function () {
+        textAreaContainer.style.display = checkbox.checked ? 'block' : 'none';
+    });
+</script>

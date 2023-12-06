@@ -1,0 +1,79 @@
+.navbar{
+    padding: 20px;
+    background-color: #5F8D4E;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.navbar-toggler img{
+    width: 40px;
+    height: 40px;
+}
+
+.home img{
+    width: 40px;
+    height: 60px;
+}
+nav section {
+    display: flex;
+    gap: 15px;
+  
+}
+.collapse ul li:hover{
+    background-color: #e5d9b6b2;
+    transition: 0.8s;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.logo{
+   position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: none;
+    background-color: #E5D9B6;
+    width: 200px;
+height: 30px;
+    border-radius: 45px;
+ align-items: center;
+}
+.logo img{
+   text-align: center;
+width: 160px;
+height: 80px;
+top: 0px;
+position:relative;
+
+}
+section button{
+    border: none;
+    background: none;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    background-color: #E5D9B6;
+    width: 200px;
+    height:40px ;
+}
+.login a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+   
+}
+.collapse ul li{
+    gap: 10px;
+}
+.collapse{
+    transition: 0.5s;
+   
+    padding: 10px;
+}
+.collapse ul li span{
+    font-size: 20px;
+    font-weight: bold;
+}
+

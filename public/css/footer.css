@@ -1,0 +1,46 @@
+footer{background-color: #778D56;
+    padding: 20px;
+}
+.links{
+    display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+.links ul li{
+    list-style: none;
+    font-size: 24px;
+    gap: 100px;
+    
+}
+
+.links ul li a{
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+  
+}
+.links ul li a:hover{
+    color: aliceblue;
+}
+.redesSociais{
+    display: flex;
+    justify-content: space-between;
+}
+.icon a{
+text-decoration: none;
+color: black;
+}
+.icon a i{
+font-size: 40px;
+}
+footer .icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px;
+}
+.redesSociais p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(1, 14, 2, 0.623);
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+  @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+    background-color: #A4BE7B;
+}
+
+.logo{
+    width: 210px;
+    height: 100px;
+}
+
+.login{
+    padding: .5rem 3rem;
+    background-color: #E5D9B6;
+    border: none;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.container-home{
+    margin: auto;
+    width: 95%;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.img-home{
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.img-home img{
+    width: 100%;
+}
+.title-home{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.title-home img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.title-home h1{
+    width: 100%;
+    font-size: 40px;
+    border-bottom: 2px solid #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.texto-home{
+    width: 90%;
+    height: 100%;
+    font-family: 'Itim', sans-serif;
+}
+.texto-home p{
+    font-size: 27px;
+}
+.classes-lixo-container{
+    height: 120vh;
+    padding: 1rem;
+    background-color: #8BA465;
+}
+.classes-lixo-container h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 80px 0;
+    font-family: 'Inter', sans-serif;
+}
+.classes-lixo{
+    height: 70%;
+}
+.columns-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    width: 75%;
+    height: 100%;
+    font-family: 'Itim', sans-serif;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 210px;
+    border-radius: .5rem;
+    position: relative;
+    height: 100%;
+    min-height: 80%;
+}
+.green{
+    background-color: #3A7854;
+}
+.brown{
+    background-color: #755543;
+}
+.blue{
+    background-color: #26698E;
+}
+.white{
+    background-color: #CADAE5;
+}
+.square{
+    position: absolute;
+    top: -55px;
+    width: 55%;
+}
+.dump{
+    position: absolute;
+    bottom: -90px;
+    width: 85%;
+}
+.column p{
+    height: 100%;
+    font-size: 24px;
+    padding: 65px 1rem;
+}
+#cancel{
+   background: #E5D9B6;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+    font-size: 39px;
+    color: #3A7854;
+}

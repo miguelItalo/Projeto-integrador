@@ -1,0 +1,163 @@
+.produtos-container {
+    padding: 20px;
+    max-width: 85rem;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .heade h1 {
+    display: flex;
+    padding: 0;
+    border-bottom: 1px solid #000000;
+    font-size: 36px;
+    font-family: "Itim", cursive;
+  }
+  .caixa-incons {
+    display: flex;
+    gap: 1rem;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .phone-green img {
+    box-shadow: 5px 2px 6px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #27ae60;
+  }
+  .tv-Brown img {
+    box-shadow: 5px 2px 6px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #936e5a;
+  }
+  .blender-Blue img {
+    box-shadow: 5px 2px 6px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #3890c1;
+  }
+  .fridge-White img {
+    box-shadow: 5px 2px 6px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+  }
+  .caixa-descricao textarea {
+    background: #e5d9b6;
+    border-radius: 20px;
+    color: #000;
+    border: 1px solid #000000;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 558px;
+    font-family: "Itim", cursive;
+  }
+  textarea::placeholder {
+    color: #000000;
+  }
+  #fileInput {
+    text-align: center;
+    font-family: "Itim", cursive;
+  }
+  input[type="file"]::-webkit-file-upload-button {
+    /* visibility: hidden; */
+    display: none;
+  }
+  .form {
+    display: flex;
+    gap: 1rem;
+  }
+  .form input {
+    width: 200px;
+    padding: 9px;
+    border-radius: 20px;
+    background: #e5d9b6;
+    cursor: pointer;
+  }
+  .form span {
+    margin-top: -4px;
+    border: 0;
+    cursor: pointer;
+  }
+  /* informações */
+  .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: "Itim", cursive;
+  }
+  .informacoes h3 {
+    font-size: 28px;
+    font-family: "Itim", cursive;
+  }
+  .informacoes p {
+    font-size: 17pt;
+    font-family: "Itim", cursive;
+  }
+  .info1 label {
+    font-size: 17pt;
+    font-family: "Itim", cursive;
+  }
+  .info2 {
+    width: 390px;
+    font-family: "Itim", cursive;
+  }
+  .info2 label {
+    font-size: 17pt;
+    font-family: "Itim", cursive;
+  }
+  input[type="radio"] {
+    cursor: pointer;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+  }
+  .btn button {
+    background: #e5d9b6;
+    color: #7d7d7d;
+    padding: 10px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 20pt;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  /* Conteúdo do mapa */
+  .conteudo-map {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .conteudo-map h1 {
+    text-align: right;
+    margin-right: 26px;
+    color: #000;
+    font-size: 36px;
+    font-family: "Itim", cursive;
+  }
+  .conteudo-map p {
+    color: #000;
+    width: 530px;
+    font-size: 16pt;
+    margin: -4px auto;
+    text-align: right;
+    font-family: "Itim", cursive;
+  }
+  #mapid {
+    width: 600px;
+    height: 500px;
+    border-radius: 40px;
+  }
+  

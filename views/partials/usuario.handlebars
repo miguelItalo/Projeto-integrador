@@ -1,0 +1,100 @@
+<a href="/"> <i class="bi bi-reply-fill"></i></a>
+<section class="entrar">
+    <article class="cadastre">
+
+        <header>
+            <h1>Cadastre-se</h1>
+            <img src="/assets/svg/🦆 icon _Seedling_Green.svg" width="60" height="70" alt="">
+        </header>
+
+        <form action="/registrar" method="post">
+            <div class="form-control">
+                <label for="nome">Nome de usuário</label>
+                <input type="text" name="name" placeholder="Digite seu nome.." />
+            </div>
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" name="password" placeholder="Digite uma senha" />
+            </div>
+            <div class="form-control">
+                <label for="repetsenha">Repetição da senha</label>
+                <input type="password" name="repetsenha" placeholder="Digite novamente a senha" />
+            </div>
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu email" />
+            </div>
+
+            <div class="control">
+                <div class="lembre">
+                    <label for="lembrar">Lembre-se de mim</label><input name="lembrar" type="checkbox" checked />
+            </div>
+            <div class="notifique">
+                <label for="notificar">Mantenha-me informado sobre novos locais de coleta por
+                    e-mail</label><input name="notificar" type="checkbox" checked />
+
+            </div>
+        </form>
+        <input class="cadastrar" type="submit" value="Cadastrar" />
+
+    </article>
+
+    
+    <article class="logar">
+        <form action="/login" method="post" onsubmit="Checkfiles(this)">
+<div class="form-upload">
+    
+ <label class="input-personalizado">
+    <span class="botao-selecionar">Selecione uma imagem de perfil</span>
+    <img class="imagem" />
+    <input type="file" class="input-file" accept="image/*">
+  </label>
+</div>
+
+          <div class="logue">
+              <button >
+                <img src="/assets/svg/🦆 icon _google_.svg" alt="">
+                <a href="">Login com o Google</a></img></button>
+            <button >
+                <img src="/assets/svg/🦆 icon _microsoft_.svg" alt="">
+                <a href="">Login com Microsoft</a></img></button>
+          </div>
+            <div class="container">
+                   <div class="form-container">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-container">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" placeholder="Digite sua senha">
+                </div>
+               
+            </div>
+
+        </form>
+         <input class="btnLogue" type="submit" value="Login">
+    </article>
+
+
+</section>
+
+<script>
+const $ = document.querySelector.bind(document);
+
+const previewImg = $('.imagem');
+const fileChooser = $('.input-file');
+
+fileChooser.onchange = e => {
+    const fileToUpload = e.target.files.item(0);
+    const reader = new FileReader();
+
+    reader.onload = e => {
+        previewImg.src = e.target.result;
+        previewImg.style.width = '80px';
+        previewImg.style.height = '80px'; 
+    };
+
+    reader.readAsDataURL(fileToUpload);
+};
+
+</script>

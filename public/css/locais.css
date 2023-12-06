@@ -1,0 +1,400 @@
+.localDestaque {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  gap: .5rem;
+  background-color: #778F51;
+}
+
+.empresa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  margin: 0 auto;
+}
+
+.empresa p {
+  font-size: 20px;
+}
+
+.empresa button {
+  background-color: #487732;
+  border-radius: 20px;
+  width: 226px;
+  height: 224px;
+  border: none;
+}
+button:focus{
+  outline: none;
+}
+.trocasVendas {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  gap: .5rem;
+  background-color: #778F51;
+}
+
+.proximos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  gap: .5rem;
+  background-color: #778F51;
+}
+
+section {
+  margin-bottom: 20px;
+}
+dialog{
+  position:relative;
+  top: 370px;
+  background-color: #778F51;
+  margin: 0 auto;
+  width:500vh;
+  height: 600px;
+  font-family: 'Itim', cursive;
+  padding: 10px;
+border: none;
+color: #fff;
+}
+dialog::backdrop{
+  background: #153f5e59;
+}
+strong{
+  text-decoration: underline;
+color: #fff;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+gap:20px;
+
+}
+.infoemp{
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+
+}
+.descricao{
+width: 100vh;
+font-size: 20px;
+}
+dialog button{
+ 
+  margin-top: 39px;
+  border: none;
+  background-color: #E5D9B6;
+  border-radius: 40px;
+  width: 410px;
+  height: 79px;
+}
+dialog a{
+  text-decoration: none;
+  color:#636363;
+font-size: 32px;
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+}
+dialog h3{
+  font-size: 12px;
+  color: #ffffffc4;
+}
+.infoemp p{
+  font-size: 45px;
+  text-justify: distribute;
+
+}
+.info img{
+  width: 450px;
+  height: 450px;
+}
+@media(min-width:1024px) and (max-width:1440px){
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 8px;
+      font-family: 'Inter', sans-serif;
+      margin-bottom: 20px;
+  }
+  .logo img {
+      margin-top: -50.5px;
+     }
+     .logo {
+         border-radius: 30px;
+         display: flex;
+         justify-content: center;
+         height: 50px;
+         width: 200px;
+     background-color: #E5D9B6;
+     }
+
+  .localDestaque {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+  }
+  .trocasVendas{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+  }
+  .proximos{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+  }
+  .empresa {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      gap: 8px;
+      margin: 0 auto;
+  }
+  
+  .empresa button img {
+      width: 170px;
+      height: 167px;
+      padding: 5px;
+  }
+  .empresa button{
+      width: 170px;
+      height: 167px;
+  }
+  dialog{
+      width: 100%;
+      height: 580px;
+      font-family: 'Itim', cursive;
+      padding: 30px;
+   
+  }
+
+  .info{
+    
+      padding: 10px;
+   gap:5rem;
+  }
+  .infoemp{
+      width: 850px;
+      display: flex;
+      flex-direction: column;
+  
+  }
+  .infoemp p{
+    font-size: 30px;
+  }
+  dialog button{
+     
+      width: 310px;
+      height: 69px;
+  }
+  dialog a{ 
+  font-size: 22px;
+  }
+  dialog h3{
+      font-size: 12px;
+      color: #ffffffc4;
+  }
+  .infoemp p{
+      font-size: 35px;
+      text-justify: distribute;
+   width: 950px;
+  }
+  .info img{
+      width: 440px;
+      height: 440px;
+  }
+
+
+}
+
+@media (min-width: 728px) and (max-width:768px) {
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 8px;
+      font-family: 'Inter', sans-serif;
+      margin-bottom: 20px;
+  }
+  .logo img {
+      margin-top: -50.5px;
+     }
+     .logo {
+         border-radius: 30px;
+         display: flex;
+         justify-content: center;
+         height: 50px;
+         width: 200px;
+     background-color: #E5D9B6;
+     }
+
+  .localDestaque {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .trocasVendas{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .proximos{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .input-nav input {
+      width: 200px;
+      border: none;
+      padding: .6rem;
+      border-radius: 20px;
+  }
+
+  dialog{
+      width: 100%;
+      height: 500px;
+      padding: 2px;
+  }
+
+  dialog button{
+      margin-top: 39px;
+      border: none;
+      background-color: #3890C1;
+      border-radius: 40px;
+      width: 210px;
+      height: 39px;
+  }
+  dialog a{
+      text-decoration: none;
+      color: #CADAE5;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  }
+  
+  .infoemp p{
+      font-size: 12px;
+      text-justify:auto;
+   width: 50px;
+  }
+  .info h4{
+      font-size: 15px;
+  }
+
+  .info img{
+      width: 300px;
+      height: 300px;
+  }
+}
+
+@media (min-width: 320px) and
+(max-width:375px) , (max-width:425px) {
+  
+  
+  .navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+  }
+  .logo img {
+     
+      margin-top: -50px;
+     }
+     .logo {
+         border-radius: 30px;
+         display: flex;
+         justify-content: center;
+         height: 50px;
+         width: 180px;
+     background-color: #E5D9B6;
+     }
+
+  .localDestaque {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 10px;
+      padding: 20px;
+
+  }
+
+
+  .empresa button img {
+      width: 223px;
+      height: 220px;
+      padding: 5px;
+  }
+
+  .trocasVendas {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      margin-top: 10px;
+      padding: 20px;
+
+  }
+
+  .proximos {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      margin-top: 10px;
+      padding: 20px;
+
+  }
+  dialog{
+      
+      width: 100%;
+      height: 380px;
+      padding: 2px;
+  }
+
+  dialog button{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    align-items: center;
+      margin-top: 40px;
+      width: 190px;
+      height: 39px;
+  }
+  dialog a{
+  font-size: 14px;
+  }
+  .info{
+      display: flex;
+      justify-content: center;
+flex-direction: column;
+  }
+  .infoemp p{
+      font-size: 12px;
+      text-justify:auto;
+   width: 50px;
+  }
+  .info h4{
+      font-size: 15px;
+  }
+
+  .info img{
+      width: 180px;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}

@@ -1,0 +1,45 @@
+.container-assinatura{
+    background-color: #E5D9B6;
+    display: flex;
+    align-items: self-start;
+    flex-direction: row;
+}
+.seedling{
+    padding: 2rem 1rem 0 0;
+}
+.assinaturas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5rem;
+    padding: 2rem 0; 
+}
+.coin{
+    width: 540px;
+    height: 400px;
+}
+.pacotes-assinatura{
+    display: flex;
+    gap: 4rem;
+}
+.assinatura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.assinaturas > p{
+    width: 600px;
+    text-align: center;
+    font-size: 30px;
+}
+.assinaturas > h1{
+    font-size: 40px;
+}
+.valor{
+    font-weight: bold;
+    font-size: 20px;
+}

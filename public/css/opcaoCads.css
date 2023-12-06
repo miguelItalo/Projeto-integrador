@@ -1,0 +1,55 @@
+.opcoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+      background-color: #E5D9B6;
+    border-radius: 50px;
+    padding: 20px;
+    
+}
+.opcoes h3{
+ font-size: 29px;
+    border-bottom: 3px solid black;
+}
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    align-items: center;
+}
+.cadastro article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cadastro article p{
+    text-align: center;
+    font-size: 31px;
+  
+}
+.cadastro article span{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+.cadastro article  i{
+    font-size: 250px;
+}
+.cadastro article  img{
+    margin-top: 90px;
+}
+.line{
+    border: 2px solid black;
+    height: 900px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #5F8D4E;
+}

@@ -1,0 +1,28 @@
+.container-como-afeta{
+    background-color: #E5D9B6;
+    padding: 3rem;
+}
+.separator{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.separator h1{
+    font-size: 40px;
+}
+.separator img{
+    margin-left: 18%;
+}
+.info-como-afeta{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.info-como-afeta p{
+    font-size: 30px;
+}
+.container-como-afeta > p{
+    margin-top: 2rem;
+    font-size: 30px;
+}
